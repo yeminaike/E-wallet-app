@@ -1,0 +1,110 @@
+.page7 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.WebCompleteregPage {
+  width: 100%;
+  height: auto;
+}
+.right-side-webcompelete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.right-side-webcompeleteone {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+.oneofthree,
+.completeregone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CompleteReg {
+  font-size: 14px;
+  font-weight: 300px;
+}
+.tiny-button {
+  font-size: 11px;
+  border-radius: 20px;
+  text-align: center;
+}
+hr {
+  width: 70%;
+  margin-top: 35px;
+  display: flex;
+  color: purple;
+  margin-left: 80px;
+}
+
+.hr2 {
+  width: 110%;
+  margin-top: 35px;
+  /* display: flex; */
+  color: #800080;
+  margin-left: -49px;
+}
+.KYC {
+  display: flex;
+  justify-content: flex-start;
+  width: 55%;
+}
+.kyc {
+  font-style: solid;
+  font-size: large;
+  font-weight: 500;
+  margin-top: -10px;
+}
+
+.identificationform {
+  font-size: 20px;
+  font-weight: 700px;
+  margin-right: 190px;
+}
+
+.TextInput2 {
+  width: 80%;
+  height: 6vh;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  border-width: 1px;
+  border-color: rgb(201, 197, 197);
+  padding-left: 15px;
+  color: rgb(201, 197, 197);
+  font-size: 20px;
+  border-top-color: rgb(201, 197, 197);
+}
+.Card-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Card-details {
+  margin-top: 1px;
+  border-width: 1px;
+  padding-left: 25px;
+  padding-top: 5px;
+  font-size: 15px;
+  width: 27em;
+  height: 40px;
+  border-color: grey;
+}
+.Card-info > input:first-child {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.Card-info > :last-child {
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.Next{
+  padding-top: 12px;
+  padding-left: 40%;
+  font-weight: 500;
+}

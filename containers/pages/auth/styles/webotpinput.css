@@ -1,0 +1,55 @@
+.page4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.WebOTP{
+    width: 100%;
+    height: auto;
+
+}
+
+.OTP-number{
+    font-weight: 550;
+    margin-top: -290px;
+    font-size: 27px;
+}
+
+.right-side-OTP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.four-boxes{
+    width: 15%;
+    height: 55px;
+    border-radius: 10px;
+    font-size: 50px;
+    text-align: center;
+    color: #55229E;   
+    border-color: rgb(199, 192, 192);
+    border-style: solid;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin-top: 40px;    
+    margin-bottom: 50px;    
+}
+
+.continue-button{
+width: 50%;
+height: 6vh;
+border-radius: 10px;
+background-color: #55229e;
+border-style: none;
+color: white;
+/* margin-bottom: 40px; */
+text-align: center;
+font-size: 30px;
+   
+}
